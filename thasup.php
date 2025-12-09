@@ -1,4 +1,8 @@
 <?php
+    function stampaSaluto(){
+        return "Ciaooooo";
+    }
 
-    echo "test";
+echo stampaSaluto();
+
     
