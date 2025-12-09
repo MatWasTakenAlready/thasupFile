@@ -5,6 +5,11 @@
 
     echo stampaSaluto();
     $var = 1000;
-    echo "Stream di Thasup (tema dell'esercizio): ".$var;
+    echo "Stream di Thasup (tema dell'esercizio): ".$var;//modifica branch "output" 
 
-    //testConflitto
+    echo $var+1; // modifica branch "header"
+
+    function stampaAddio () {
+        return "CIAOOOOOOO";
+    }
+    echo stampaAddio (); // modifica testConflitto
