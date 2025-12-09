@@ -9,4 +9,7 @@
 
     echo $var+1; // modifica branch "header"
 
-    
+    function stampaAddio () {
+        return "CIAOOOOOOO";
+    }
+    echo stampaAddio (); // modifica testConflitto
