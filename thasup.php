@@ -3,6 +3,8 @@
         return "Ciaooooo";
     }
 
-echo stampaSaluto();
+    echo stampaSaluto();
+    $var = 1000;
+    echo "Stream di Thasup (tema dell'esercizio): ".$var;
 
     
